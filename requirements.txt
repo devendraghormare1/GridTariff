@@ -1,0 +1,4 @@
+kafka-python
+APScheduler
+python-dotenv
+redis

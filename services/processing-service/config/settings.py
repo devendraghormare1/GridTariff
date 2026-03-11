@@ -1,0 +1,6 @@
+KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
+
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+
+TARIFF_RATE = 8
