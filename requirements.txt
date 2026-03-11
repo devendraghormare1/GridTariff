@@ -1,4 +1,6 @@
 kafka-python
 APScheduler
 python-dotenv
+fastapi
+uvicorn
 redis
