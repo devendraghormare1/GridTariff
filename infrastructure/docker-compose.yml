@@ -47,3 +47,13 @@ services:
     ports:
       - "6379:6379"
     restart: unless-stopped
+  
+  postgres:
+    image: postgres:15
+    container_name: gridtariff-db
+    environment:
+      POSTGRES_USER: griduser
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: gridtariff
+    ports:
+      - "5433:5432"
